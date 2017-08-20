@@ -20,15 +20,15 @@ import sun.rmi.runtime.Log;
 public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 
 
-    private SpriteBatch batch;
-    private BitmapFont font;
-//    private Texture img;
-//    private Sprite sprite;
-    private GlyphLayout glyphLayout;
+    private SpriteBatch batch;          
+    private BitmapFont font;        //for writing Text
+//    private Texture img;          
+//    private Sprite sprite;        // displaying image
+    private GlyphLayout glyphLayout;    //getting length of String
 
-//    private TextureAtlas textureAtlas;
+//    private TextureAtlas textureAtlas;    //grouping multiple images together 
 //    private Animation animation;
-//    private float timepassed=0;
+//    private float timepassed=0;   
 
     private int screenHeight,screenWidth;
     private String msg = "LibGDX Rocks!!!";
@@ -45,14 +45,14 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 //        img = new Texture("badlogic.jpg");
 //        sprite = new Sprite(img);
 
-//        textureAtlas = new TextureAtlas(Gdx.files.internal("flagAnim.atlas"));
+//        textureAtlas = new TextureAtlas(Gdx.files.internal("flagAnim.atlas"));    
 //        animation = new Animation(1/10f,textureAtlas.getRegions());
 
         screenHeight = Gdx.graphics.getHeight();
         screenWidth = Gdx.graphics.getWidth();
         glyphLayout = new GlyphLayout();
 
-        Gdx.input.setInputProcessor(this);
+        Gdx.input.setInputProcessor(this);      //consider InputProcessor as this class only
 
     }
 
