@@ -1,0 +1,47 @@
+
+flagAnim.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+images6
+  rotate: false
+  xy: 1, 341
+  size: 299, 168
+  orig: 299, 168
+  offset: 0, 0
+  index: -1
+images1
+  rotate: false
+  xy: 1, 171
+  size: 299, 168
+  orig: 299, 168
+  offset: 0, 0
+  index: -1
+images5
+  rotate: false
+  xy: 302, 341
+  size: 299, 168
+  orig: 299, 168
+  offset: 0, 0
+  index: -1
+images2
+  rotate: false
+  xy: 1, 1
+  size: 299, 168
+  orig: 299, 168
+  offset: 0, 0
+  index: -1
+images3
+  rotate: false
+  xy: 302, 171
+  size: 299, 168
+  orig: 299, 168
+  offset: 0, 0
+  index: -1
+images4
+  rotate: false
+  xy: 603, 317
+  size: 262, 192
+  orig: 262, 192
+  offset: 0, 0
+  index: -1
